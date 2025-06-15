@@ -1,9 +1,9 @@
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import streamlit as st
-import plotly.express as px
 import pandas as pd
 import numpy as np 
+import plotly.express as px
 
 def pca_maker(data_import):
 
