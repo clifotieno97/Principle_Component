@@ -1,7 +1,8 @@
 import pandas as pd
 import streamlit as st
-import plotly.express as px
 from application_functions import pca_maker
+import plotly.express as px
+
 
 st.set_page_config(layout="wide")
 scatter_column , settings_column = st.columns((4,1))
