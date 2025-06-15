@@ -6,7 +6,7 @@ from application_functions import pca_maker
 st.set_page_config(layout="wide")
 scatter_column , settings_column = st.columns((4,1))
 
-scatter_column.title("Multi-Dimensional Analysis")
+scatter_column.title("Multi-Dimensional Analysis!")
 
 settings_column.title("Settings")
 
